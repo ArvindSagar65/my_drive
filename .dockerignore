@@ -1,0 +1,8 @@
+node_modules
+backend/node_modules
+my-drive-frontend/node_modules
+backend/temp
+backend/data
+.git
+*.md
+backend/firebase-admin-key.json

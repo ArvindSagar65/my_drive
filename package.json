@@ -1,0 +1,13 @@
+{
+  "name": "my-drive",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "build": "npm run build --prefix my-drive-frontend",
+    "expose": "npx --yes cloudflared tunnel --url http://localhost:5000",
+    "mydrive": "node cli/mydrive.js"
+  },
+  "bin": {
+    "mydrive": "./cli/mydrive.js"
+  }
+}
